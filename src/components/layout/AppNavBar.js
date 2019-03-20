@@ -7,9 +7,9 @@ class AppNavBar extends Component {
       <nav className="navbar navbar-expand-md navbar-dark bg-primary mb-4">
         <div class="container">
           <Link to="/" className="navbar-brand">
-          Client Panel
+            Client Panel
           </Link>
-    
+
           <button
             className="navbar-toggler"
             type="button"
@@ -26,14 +26,10 @@ class AppNavBar extends Component {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <Link className="nav-link">
-                Dashboard <span className="sr-only">(current)</span>
+                  Dashboard <span className="sr-only">(current)</span>
                 </Link>
-               
               </li>
-              
-             
             </ul>
-            
           </div>
         </div>
       </nav>

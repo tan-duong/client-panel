@@ -7,10 +7,12 @@ class App extends Component {
   render() {
     return (
       <Router>
-        
-        <div className="App">
         <AppNavBar />
-          <h1>Hello</h1>
+        <div className="container">
+          <div className="App">
+            
+            <h1>Hello</h1>
+          </div>
         </div>
       </Router>
     );

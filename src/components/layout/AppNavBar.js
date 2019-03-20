@@ -25,7 +25,7 @@ class AppNavBar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
-                <Link className="nav-link">
+                <Link to="/" className="nav-link">
                   Dashboard <span className="sr-only">(current)</span>
                 </Link>
               </li>

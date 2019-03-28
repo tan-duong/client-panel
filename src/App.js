@@ -5,7 +5,7 @@ import AppNavBar from "./components/layout/AppNavBar";
 import Dashboard from "./components/layout/Dashboard";
 import AddClient from './components/clients/AddClient';
 // import EditClient from './components/clients/EditClient';
-// import ClientDetails from './components/clients/ClientDetails';
+import ClientDetails from './components/clients/ClientDetails';
 // import Login from './components/auth/Login';
 // import Register from './components/auth/Register';
 // import Settings from './components/settings/Settings';
@@ -28,6 +28,11 @@ class App extends Component {
                   exact
                   path="/client/add"
                   component={AddClient}
+                />
+                <Route
+                  exact
+                  path="/client/:id"
+                  component={(ClientDetails)}
                 />
               </Switch>
             </div>
